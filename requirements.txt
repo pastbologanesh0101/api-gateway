@@ -1,0 +1,5 @@
+# API Gateway has no runtime dependencies — it's built entirely on the
+# Python standard library (http.server / socketserver / urllib).
+#
+# This file is kept for tooling that expects one, and for future dev/test
+# dependencies. To run tests: python -m unittest discover -s tests -v
